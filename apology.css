@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ffdab9, #ffe5b4), url("beautiful-kittens-with-flowers-outdoors.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.container {
+    margin-top: 50px;
+}
+.letter {
+    font-size: 20px;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: left;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff3366;
+}
+.gif-container img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#response {
+    font-size: 22px;
+    margin-top: 20px;
+    color: red; /* Can be adjusted to be more visible */
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
